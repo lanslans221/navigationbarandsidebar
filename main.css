@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  background: #FEFDED;
+  color: #332941;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar a{
+  text-decoration: none;
+}
+.h1 {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+.left_col {
+  flex: 0.33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.right_col {
+  flex: 0.33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.middle_col {
+  flex: 0.33;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+.fi.fi-rr-head-side-heart {
+  font-size: 55px;
+  color: #332941;
+  display: flex;
+}
+.fi.fi-rr-bell {
+  font-size: 30px;
+  color: #332941;
+  display: flex;
+}
+
+.fi.fi-rr-comment-alt-dots {
+  font-size: 30px;
+  color: #332941;
+  margin-top: 5px;
+}
+
+.fi.fi-rr-user {
+  font-size: 30px;
+  color: #332941;
+}
+
+.search {
+  background: #FEFDED;
+  width: 120%;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.search i {
+  position: absolute;
+}
+.fi.fi-rr-search {
+  padding: 10px;
+  color: #332941;
+  min-width: 50px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #FEFDED;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #332941;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #332941; 
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.messages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #332941; 
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.navbar input[type=text] {
+  padding: 10px;
+  border: 1px solid #332941;
+  border-radius: 20px;
+  margin-top: 8px;
+  font-size: 17px;
+  width: 100%;
+  background-color: #FEFDED;
+  border: 3px solid #332941;
+  border-radius: 50px;
+  padding-left: 50px;
+}
